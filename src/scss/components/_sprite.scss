@@ -1,0 +1,233 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$city-name: 'city';
+$city-x: 747px;
+$city-y: 887px;
+$city-offset-x: -747px;
+$city-offset-y: -887px;
+$city-width: 302px;
+$city-height: 228px;
+$city-total-width: 1920px;
+$city-total-height: 1125px;
+$city-image: '../img/sprite.png';
+$city: (747px, 887px, -747px, -887px, 302px, 228px, 1920px, 1125px, '../img/sprite.png', 'city', );
+$comment-bg-name: 'comment-bg';
+$comment-bg-x: 1065px;
+$comment-bg-y: 887px;
+$comment-bg-offset-x: -1065px;
+$comment-bg-offset-y: -887px;
+$comment-bg-width: 275px;
+$comment-bg-height: 199px;
+$comment-bg-total-width: 1920px;
+$comment-bg-total-height: 1125px;
+$comment-bg-image: '../img/sprite.png';
+$comment-bg: (1065px, 887px, -1065px, -887px, 275px, 199px, 1920px, 1125px, '../img/sprite.png', 'comment-bg', );
+$danger-icon-name: 'danger-icon';
+$danger-icon-x: 1453px;
+$danger-icon-y: 887px;
+$danger-icon-offset-x: -1453px;
+$danger-icon-offset-y: -887px;
+$danger-icon-width: 81px;
+$danger-icon-height: 81px;
+$danger-icon-total-width: 1920px;
+$danger-icon-total-height: 1125px;
+$danger-icon-image: '../img/sprite.png';
+$danger-icon: (1453px, 887px, -1453px, -887px, 81px, 81px, 1920px, 1125px, '../img/sprite.png', 'danger-icon', );
+$ecologist1-name: 'ecologist1';
+$ecologist1-x: 1837px;
+$ecologist1-y: 887px;
+$ecologist1-offset-x: -1837px;
+$ecologist1-offset-y: -887px;
+$ecologist1-width: 79px;
+$ecologist1-height: 79px;
+$ecologist1-total-width: 1920px;
+$ecologist1-total-height: 1125px;
+$ecologist1-image: '../img/sprite.png';
+$ecologist1: (1837px, 887px, -1837px, -887px, 79px, 79px, 1920px, 1125px, '../img/sprite.png', 'ecologist1', );
+$ecologist2-name: 'ecologist2';
+$ecologist2-x: 1742px;
+$ecologist2-y: 887px;
+$ecologist2-offset-x: -1742px;
+$ecologist2-offset-y: -887px;
+$ecologist2-width: 79px;
+$ecologist2-height: 79px;
+$ecologist2-total-width: 1920px;
+$ecologist2-total-height: 1125px;
+$ecologist2-image: '../img/sprite.png';
+$ecologist2: (1742px, 887px, -1742px, -887px, 79px, 79px, 1920px, 1125px, '../img/sprite.png', 'ecologist2', );
+$ecologist3-name: 'ecologist3';
+$ecologist3-x: 1647px;
+$ecologist3-y: 887px;
+$ecologist3-offset-x: -1647px;
+$ecologist3-offset-y: -887px;
+$ecologist3-width: 79px;
+$ecologist3-height: 79px;
+$ecologist3-total-width: 1920px;
+$ecologist3-total-height: 1125px;
+$ecologist3-image: '../img/sprite.png';
+$ecologist3: (1647px, 887px, -1647px, -887px, 79px, 79px, 1920px, 1125px, '../img/sprite.png', 'ecologist3', );
+$forest-evo-name: 'forest-evo';
+$forest-evo-x: 374px;
+$forest-evo-y: 887px;
+$forest-evo-offset-x: -374px;
+$forest-evo-offset-y: -887px;
+$forest-evo-width: 357px;
+$forest-evo-height: 230px;
+$forest-evo-total-width: 1920px;
+$forest-evo-total-height: 1125px;
+$forest-evo-image: '../img/sprite.png';
+$forest-evo: (374px, 887px, -374px, -887px, 357px, 230px, 1920px, 1125px, '../img/sprite.png', 'forest-evo', );
+$lisi-icon-name: 'lisi-icon';
+$lisi-icon-x: 1356px;
+$lisi-icon-y: 984px;
+$lisi-icon-offset-x: -1356px;
+$lisi-icon-offset-y: -984px;
+$lisi-icon-width: 36px;
+$lisi-icon-height: 36px;
+$lisi-icon-total-width: 1920px;
+$lisi-icon-total-height: 1125px;
+$lisi-icon-image: '../img/sprite.png';
+$lisi-icon: (1356px, 984px, -1356px, -984px, 36px, 36px, 1920px, 1125px, '../img/sprite.png', 'lisi-icon', );
+$main-name: 'main';
+$main-x: 0px;
+$main-y: 0px;
+$main-offset-x: 0px;
+$main-offset-y: 0px;
+$main-width: 1920px;
+$main-height: 551px;
+$main-total-width: 1920px;
+$main-total-height: 1125px;
+$main-image: '../img/sprite.png';
+$main: (0px, 0px, 0px, 0px, 1920px, 551px, 1920px, 1125px, '../img/sprite.png', 'main', );
+$play-icon-name: 'play-icon';
+$play-icon-x: 1408px;
+$play-icon-y: 984px;
+$play-icon-offset-x: -1408px;
+$play-icon-offset-y: -984px;
+$play-icon-width: 11px;
+$play-icon-height: 12px;
+$play-icon-total-width: 1920px;
+$play-icon-total-height: 1125px;
+$play-icon-image: '../img/sprite.png';
+$play-icon: (1408px, 984px, -1408px, -984px, 11px, 12px, 1920px, 1125px, '../img/sprite.png', 'play-icon', );
+$rabbit-icon-name: 'rabbit-icon';
+$rabbit-icon-x: 1550px;
+$rabbit-icon-y: 887px;
+$rabbit-icon-offset-x: -1550px;
+$rabbit-icon-offset-y: -887px;
+$rabbit-icon-width: 81px;
+$rabbit-icon-height: 81px;
+$rabbit-icon-total-width: 1920px;
+$rabbit-icon-total-height: 1125px;
+$rabbit-icon-image: '../img/sprite.png';
+$rabbit-icon: (1550px, 887px, -1550px, -887px, 81px, 81px, 1920px, 1125px, '../img/sprite.png', 'rabbit-icon', );
+$structure-name: 'structure';
+$structure-x: 0px;
+$structure-y: 887px;
+$structure-offset-x: 0px;
+$structure-offset-y: -887px;
+$structure-width: 358px;
+$structure-height: 238px;
+$structure-total-width: 1920px;
+$structure-total-height: 1125px;
+$structure-image: '../img/sprite.png';
+$structure: (0px, 887px, 0px, -887px, 358px, 238px, 1920px, 1125px, '../img/sprite.png', 'structure', );
+$stylish-bg-name: 'stylish-bg';
+$stylish-bg-x: 0px;
+$stylish-bg-y: 567px;
+$stylish-bg-offset-x: 0px;
+$stylish-bg-offset-y: -567px;
+$stylish-bg-width: 1920px;
+$stylish-bg-height: 304px;
+$stylish-bg-total-width: 1920px;
+$stylish-bg-total-height: 1125px;
+$stylish-bg-image: '../img/sprite.png';
+$stylish-bg: (0px, 567px, 0px, -567px, 1920px, 304px, 1920px, 1125px, '../img/sprite.png', 'stylish-bg', );
+$tree-icon-name: 'tree-icon';
+$tree-icon-x: 1356px;
+$tree-icon-y: 887px;
+$tree-icon-offset-x: -1356px;
+$tree-icon-offset-y: -887px;
+$tree-icon-width: 81px;
+$tree-icon-height: 81px;
+$tree-icon-total-width: 1920px;
+$tree-icon-total-height: 1125px;
+$tree-icon-image: '../img/sprite.png';
+$tree-icon: (1356px, 887px, -1356px, -887px, 81px, 81px, 1920px, 1125px, '../img/sprite.png', 'tree-icon', );
+$spritesheet-width: 1920px;
+$spritesheet-height: 1125px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($city, $comment-bg, $danger-icon, $ecologist1, $ecologist2, $ecologist3, $forest-evo, $lisi-icon, $main, $play-icon, $rabbit-icon, $structure, $stylish-bg, $tree-icon, );
+$spritesheet: (1920px, 1125px, '../img/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
